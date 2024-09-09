@@ -173,50 +173,6 @@ thousands of associative arrays, but I never created data structures from scratc
 
 It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
 
-## How to use it
-
-Everything below is an outline, and you should tackle the items in order from top to bottom.
-
-I'm using GitHub's special markdown flavor, including tasks lists to track progress.
-  - [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
-
-### If you don't want to use git
-
-On this page, click the Code button near the top, then click "Download ZIP". Unzip the file and you can work with the text files.
-
-If you're open in a code editor that understands markdown, you'll see everything formatted nicely.
-
-![How to download the repo as a zip file](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
-
-### If you're comfortable with git
-
-Create a new branch so you can check items like this, just put an x in the brackets: [x]
-
-1. ***Fork the GitHub repo:*** `https://github.com/jwasham/coding-interview-university` by clicking on the Fork button.
-
-    ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
-
-1. Clone to your local repo:
-
-    ```
-    git clone https://github.com/<YOUR_GITHUB_USERNAME>/coding-interview-university.git
-    cd coding-interview-university
-    git remote add upstream https://github.com/jwasham/coding-interview-university.git
-    git remote set-url --push upstream DISABLE  # so that you don't push your personal progress back to the original repo
-    ```
-
-1. Mark all boxes with X after you completed your changes:
-
-    ```
-    git commit -am "Marked personal progress"
-    git pull upstream main  # keep your fork up-to-date with changes from the original repo
-   
-    git push # just pushes to your fork
-    ```
-
-## Don't feel you aren't smart enough
-
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
 - Following videos may help you overcome this insecurity:
     - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
     - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
@@ -260,40 +216,11 @@ You may not need it, but here are some sites for learning a new language:
 - [HackerEarth](https://www.hackerearth.com/for-developers/)
 - [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
 
-### For your Coding Interview
-
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
-
-- C++
-- Java
-- Python
-
-You could also use these, but read around first. There may be caveats:
-
-- JavaScript
-- Ruby
-
-Here is an article I wrote about choosing a language for the interview: 
-[Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
-This is the original article my post was based on: [Choosing a Programming Language for Interviews](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
-
-You need to be very comfortable in the language and be knowledgeable.
-
-Read more about choices: 
-- [Choose the Right Language for Your Coding Interview](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
-
-[See language-specific resources here](programming-language-resources.md)
-
 ## Books for Data Structures and Algorithms
 
 This book will form your foundation for computer science.
 
 Just choose one, in a language that you will be comfortable with. You'll be doing a lot of reading and coding.
-
-### C
-
-- [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
-    - Fundamentals, Data Structures, Sorting, Searching, and Graph Algorithms 
 
 ### Python
 
@@ -302,28 +229,6 @@ Just choose one, in a language that you will be comfortable with. You'll be doin
     - I loved this book. It covered everything and more.
     - Pythonic code
     - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
-
-### Java
-
-Your choice:
-
-- Goodrich, Tamassia, Goldwasser
-    - [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-- Sedgewick and Wayne:
-    - [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - Free Coursera course that covers the book (taught by the authors!):
-        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
-        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
-
-### C++
-
-Your choice:
-
-- Goodrich, Tamassia, and Mount
-    - [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
-- Sedgewick and Wayne
-    - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-    - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
 ## Interview Prep Books
 
@@ -336,16 +241,12 @@ I bought both of these. They gave me plenty of practice.
     - Answers in C++ and Java
     - This is a good warm-up for Cracking the Coding Interview
     - Not too difficult. Most problems may be easier than what you'll see in an interview (from what I've read)
-- [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
 
 ### If you have tons of extra time:
 
 Choose one:
 
-- [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
-- [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
         - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
 ## Don't Make My Mistakes
@@ -367,31 +268,6 @@ Please, read so you won't make my mistakes:
 
 To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
 Each card has different formatting. I made a mobile-first website, so I could review on my phone or tablet, wherever I am.
-
-Make your own for free:
-
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-
-**I DON'T RECOMMEND using my flashcards.** There are too many and most of them are trivia that you don't need.
-
-But if you don't want to listen to me, here you go:
-- [My flash cards database (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
-- [My flash cards database (extreme - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
-
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. 
-It's way too much for what's required.
-
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
-
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. 
-It uses a repetition system to help you remember. It's user-friendly, available on all platforms and has a cloud sync system. 
-It costs $25 on iOS but is free on other platforms.
-
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
-
-Some students have mentioned formatting issues with white space that can be fixed by doing the following: open deck, edit card, click cards, select the "styling" radio button, add the member "white-space: pre;" to the card class.
 
 ### 3. Do Coding Interview Questions While You're Learning
 
@@ -442,10 +318,6 @@ You can see my code here:
 You don't need to memorize every algorithm. You just need to be able to understand it enough to be able to write your own implementation.
 
 ## Coding Question Practice
-
-    Why is this here? I'm not ready to interview.
-
-[Then go back and read this.](#3-do-coding-interview-questions-while-youre-learning)
 
 Why you need to practice doing programming problems:
 - Problem recognition, and where the right data structures and algorithms fit in
@@ -532,7 +404,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
 ## Data Structures
 
 - ### Arrays
-    - [ ] About Arrays:
+    - [X] About Arrays:
     	- [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
         - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
